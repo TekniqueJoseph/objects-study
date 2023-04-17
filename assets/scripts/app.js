@@ -29,10 +29,12 @@ console.log(user)
 // console.log(Object.keys(user))
 // console.log(Object.values(user))
 // console.log(user.blog[0])
-// setTimeout (() => {
-//     console.log('Waited 5 Seconds')
-// }, 5000);
+
 user.phrase1()
 user.phrase2()
 user.logBlog()
+
+// setTimeout (() => {
+//     console.log('Waited 5 Seconds')
+// }, 5000);
 
