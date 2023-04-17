@@ -5,3 +5,65 @@ body{
   background-image: linear-gradient(to right, #4e5f78, #0087aa, #00b0b0, #00d47f, #a8eb12);
 }
 
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+h1:hover{
+  cursor: pointer;
+  color: #00d47f;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+li{
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: indigo;
+  color: aliceblue;
+}
+
+.hero{
+  text-align: center;
+  margin: 5rem;
+}
+
+img{
+  width: 425px;
+  height: 425px;
+  border-radius: 50%;
+  transition: transform 1.2s ease-in-out;
+}
+
+img:hover{
+  cursor: pointer;
+  transform: rotate(720deg);
+ 
+}
+
+.bttn{
+  text-align: center;
+}
+
+button{
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  color: aliceblue;
+  background-color: black;
+}
+button:hover{
+  cursor: pointer;
+  background-color: indigo;
+  color: aliceblue;
+}
+
