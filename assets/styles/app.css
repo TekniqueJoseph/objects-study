@@ -34,7 +34,6 @@ li:hover{
 
 .hero{
   margin: 4rem auto;
-  
   width: 90%;
   /* text-align: center; */
   /* margin: 5rem; */
@@ -55,7 +54,6 @@ img{
 img:hover{
   cursor: pointer;
   transform: rotate(720deg);
- 
 }
 
 .bttn{
