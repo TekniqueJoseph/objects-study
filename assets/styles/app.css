@@ -33,13 +33,21 @@ li:hover{
 }
 
 .hero{
+  margin: 4rem auto;
+  
+  width: 90%;
+  /* text-align: center; */
+  /* margin: 5rem; */
+}
+.image{
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
-  margin: 5rem;
 }
 
 img{
-  width: 425px;
-  height: 425px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
   transition: transform 1.2s ease-in-out;
 }
