@@ -40,9 +40,9 @@ let user = {
 // console.log(Object.values(user))
 // console.log(user.blog[0])
 
-// user.phrase1()
-// user.phrase2()
-// user.logBlogs()
+user.phrase1()
+user.phrase2()
+user.logBlogs()
 
 // Math Object
 // console.log(Math)
@@ -63,21 +63,21 @@ const random = Math.random()
 
 // primitive values
 
-let scoreOne = 50;
-let scoreTwo = scoreOne
+// let scoreOne = 50;
+// let scoreTwo = scoreOne
 
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`)
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`)
 
-scoreOne = 100;
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`)
+// scoreOne = 100;
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`)
 
-// reference types
+// // reference types
 
-const userOne = {name: 'Jazzy', age: 50}
-const userTwo = userOne;
+// const userOne = {name: 'Jazzy', age: 50}
+// const userTwo = userOne;
 
-console.log(userOne, userTwo)
+// console.log(userOne, userTwo)
 
-userOne.age = 40;
+// userOne.age = 40;
 
-console.log(userOne, userTwo)
+// console.log(userOne, userTwo)
